@@ -1,23 +1,23 @@
 <template>
   <div class="page">
     <v-header></v-header>
-    
-    <section class="main">
-      <router-view></router-view>
-    </section>
+
+    <keep-alive>
+      <router-view class="main"></router-view>
+    </keep-alive>
 
     <footer class="footer border-top-1px">
       <div class="footer-item">
-        <router-link to="/home"><span class="">首页</span></router-link>
+        <router-link to="/home"><span class="icon-home"></span></router-link>
       </div>
       <div class="footer-item">
-        <router-link to="/category"><span class="">分类</span></router-link>
+        <router-link to="/category"><span class="icon-list"></span></router-link>
       </div>
       <div class="footer-item">
-        <router-link to="/cart"><span class="">购物车</span></router-link>
+        <router-link to="/cart"><span class="icon-cart"></span></router-link>
       </div>
       <div class="footer-item">
-        <router-link to="/user"><span class="">我的</span></router-link>
+        <router-link to="/user"><span class="icon-user"></span></router-link>
       </div>
     </footer>
   </div>
@@ -36,19 +36,27 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
 @import './common/stylus/mixin.styl'
 .page
-  display: flex
+  position relative
   height 100%
-  flex-direction: column
   .main
-    flex: 1
+    position fixed
+    top 40px
+    left 0
+    bottom 40px
+    width 100%
+    overflow hidden
+    z-index 0
   .footer
-    display: flex
+    display flex
+    position fixed
+    left 0
+    bottom 0
+    width 100%
     height: 40px
     line-height: 40px
     text-align center
     border-top-1px(rgba(7, 17, 27, 0.1))
-    background #f90
+    z-index 1
     .footer-item
       flex: 1
-      // text-indent -999px
 </style>
