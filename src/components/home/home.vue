@@ -145,53 +145,82 @@
   }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
-.home-content
-  font-size 0
-  .carousel-wrapper
-    position relative
-    width 100%
-    height 0
-    padding-top 88.27%
-    .carousel
-      position absolute
-      top 0
-      left 0
+  .home-content
+    font-size 0
+    .carousel-wrapper
+      position relative
       width 100%
-      height 100%
-      .swiper-pagination-bullet-active
-        background #000
-  .home1
-    position relative
-    width 100%
-    height 0
-    margin-top 15px
-    padding-top 55.2%
-    .home-area1, .home-area2
-      position absolute
-      top 0
-      width 50%
-      height 100%
-    .home-area1
-      left 0
-      padding-right 5px
-    .home-area2
-      right 0
-      padding-left 5px
-  .home2, .home3
-    position relative
-    width 100%
-    height 0
-    margin-top 15px
-    padding-top 64.48%
-    img
-      position absolute
-      top 0
-      left 0
+      height 0
+      padding-top 88.27%
+      .carousel
+        position absolute
+        top 0
+        left 0
+        width 100%
+        height 100%
+        .swiper-pagination-bullet-active
+          background #000
+    .home1
+      position relative
       width 100%
-      height 100%
-  .celebrity
-    margin-top 15px
-    .title
+      height 0
+      margin-top 15px
+      padding-top 55.2%
+      .home-area1, .home-area2
+        position absolute
+        top 0
+        width 50%
+        height 100%
+      .home-area1
+        left 0
+        padding-right 5px
+      .home-area2
+        right 0
+        padding-left 5px
+    .home2, .home3
+      position relative
+      width 100%
+      height 0
+      margin-top 15px
+      padding-top 64.48%
+      img
+        position absolute
+        top 0
+        left 0
+        width 100%
+        height 100%
+    .celebrity
+      margin-top 15px
+      .title
+        text-align center
+        letter-spacing 3px
+        .en
+          line-height 24px
+          font-size 18px
+          text-transform uppercase
+        .cn
+          margin-bottom 5px
+          line-height 20px
+          font-size 14px
+      .list-wrapper
+        position relative
+        width 100%
+        height 0
+        padding-top 64.26%
+        .list
+          position absolute
+          top 0
+          left 0
+          width 100%
+          height 100%
+          .list-content
+            display flex
+            margin 0 -5px
+            .item
+              flex 1
+              padding 0 5px
+    .hotsale-title
+      margin-top 15px
       text-align center
       letter-spacing 3px
       .en
@@ -202,46 +231,17 @@
         margin-bottom 5px
         line-height 20px
         font-size 14px
-    .list-wrapper
+    .hotsale-wrapper
       position relative
       width 100%
       height 0
-      padding-top 64.26%
-      .list
+      padding-top 140.2%
+      .hotsale
         position absolute
         top 0
         left 0
         width 100%
         height 100%
-        .list-content
-          display flex
-          margin 0 -5px
-          .item
-            flex 1
-            padding 0 5px
-  .hotsale-title
-    margin-top 15px
-    text-align center
-    letter-spacing 3px
-    .en
-      line-height 24px
-      font-size 18px
-      text-transform uppercase
-    .cn
-      margin-bottom 5px
-      line-height 20px
-      font-size 14px
-  .hotsale-wrapper
-    position relative
-    width 100%
-    height 0
-    padding-top 140.2%
-    .hotsale
-      position absolute
-      top 0
-      left 0
-      width 100%
-      height 100%
-      .swiper-pagination-bullet-active
-        background #000
+        .swiper-pagination-bullet-active
+          background #000
 </style>

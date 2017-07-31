@@ -25,6 +25,7 @@ var app = express()
 var appData = require('../data.json')
 var header = appData.header
 var home = appData.home
+var category = appData.category
 
 var apiRoutes = express.Router()
 
@@ -39,6 +40,13 @@ apiRoutes.get('/home', function(req, res){
   res.json({
     errno: 0,
     data: home
+  })
+})
+
+apiRoutes.get('/category', function(req, res){
+  res.json({
+    errno: 0,
+    data: category
   })
 })
 

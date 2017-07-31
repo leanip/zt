@@ -79,5 +79,159 @@
       "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/500x701/9df78eab33525d08d6e5fb8d27136e95/a/s/asf16131mdh_rose.jpg"
       }
     ]
+  },
+  "category": {
+    "filter": {
+      "classify": {
+        "title": "分类",
+        "list": ["新品上市",
+                "套装",
+                "上装",
+                "下装",
+                "连衣裙",
+                "婚礼",
+                "配饰",
+                "儿童",
+                "亲子款 / 母女款",
+                "预售款",
+                "经典款",
+                "所有成衣",
+                "每周优享",
+                "全部商品",
+                "2016秋冬系列",
+                "2017早春新品",
+                "2017春夏新品",
+                "2017早秋系列"]
+      },
+      "sleeve": {
+        "title": "袖长",
+        "list": [
+              {"className": "sleeveless", "name": "无袖"},
+              {"className": "capsleeve", "name": "盖袖"},
+              {"className": "shortsleeve", "name": "短袖"},
+              {"className": "sleeve34", "name": "7分袖"},
+              {"className": "longsleeve", "name": "长袖"}
+            ]
+      },
+      "neckline": {
+        "title": "领型",
+        "list": [
+              {"className": "vneck", "name": "V领"},
+              {"className": "oneshoulder", "name": "单肩"},
+              {"className": "sweetheart", "name": "心型领"},
+              {"className": "strapless", "name": "抹胸"},
+              {"className": "boatneck", "name": "船领"},
+              {"className": "offshoulder", "name": "露肩"}
+            ]
+      },
+      "silhouette": {
+        "title": "裙型",
+        "list": [
+              {"className": "ballgown", "name": "摆浪裙"},
+              {"className": "mermaid", "name": "鱼尾裙"},
+              {"className": "straight", "name": "直筒裙"},
+              {"className": "alinecocktail", "name": "A型中裙"},
+              {"className": "alinegown", "name": "A型长裙"},
+              {"className": "straight", "name": "直筒中裙"},
+              {"className": "columngown", "name": "直筒长裙"}
+            ]
+      },
+      "color": {
+        "title": "颜色",
+        "list": [{"title": "米色", "content": "#F3EBD9"},
+          {"title": "白色", "content": "#FFFFF9"},
+          {"title": "黑色", "content": "Black"},
+          {"title": "蓝色", "content": "Blue"},
+          {"title": "金色", "content": "Gold"},
+          {"title": "绿色", "content": "Green"},
+          {"title": "灰色", "content": "Grey"},
+          {"title": "藏青色", "content": "Navy"},
+          {"title": "桔色", "content": "Orange"},
+          {"title": "粉色", "content": "Pink"},
+          {"title": "紫色", "content": "Purple"},
+          {"title": "红色", "content": "Red"},
+          {"title": "银色", "content": "Silver"},
+          {"title": "黄色", "content": "Yellow"}]
+      },
+      "size": {
+        "title": "尺寸",
+        "list": ["00", "0", "2", "4", "6", "8", "10", "XXS", "XS", "S", "M", "L", "XL", "均码", "2T", "4T", "6T", "8T", "10T"]
+      }
+    },
+    "rank": {
+      "current": {
+        "title": "综合",
+        "content": "position"
+      },
+      "list": [
+        {"title": "销量", "content": "qty"},
+        {"title": "新品", "content": "created"},
+        {"title": "价格从低到高", "content": "ascPrice"},
+        {"title": "价格从高到低", "content": "descPrice"}
+      ]
+    },
+    "products": [
+      {
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/y/s/ys15226m_ivory_front__1_.jpg",
+        "id": "ys15226mh-ivory",
+        "title": "水晶褶网纱裙",
+        "price": 2089
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/r/art16056-blust-front2.jpg",
+        "id": "art16056h-blust",
+        "title": "花朵蕾丝装饰卫衣",
+        "price": 2259
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/3/k/3k1224m_feather_front_1_.jpg",
+        "id": "3k1224mh-fethr",
+        "title": "绣花蕾丝腰带装饰直身连衣裙",
+        "price": 2929
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/_/0/_06_-ati16078_ivory_black_front.jpg",
+        "id": "ati16078h-iv-bk",
+        "title": "芍药蕾丝棒球衫",
+        "price": 2759
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/c/acz1545mxz_petal-bloom_front_1_.jpg",
+        "id": "acz1545mxzh-ptlbl",
+        "title": "绣花蕾丝打条针织连衣裙",
+        "price": 2589
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/r/art16078m_ivory_front2_1.jpg",
+        "id": "art16078h-ivory",
+        "title": "花朵蕾丝棒球衫",
+        "price": 2759
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/_/2/_22_-aog1953m_petal-bloom.jpg",
+        "id": "aog1953mh-ptlbl",
+        "title": "海星蕾丝衬衫领连衣裙",
+        "price": 4269
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/s/asu16229x_petal_front.jpg",
+        "id": "asu16256mxh-pe-bk",
+        "title": "花朵网纱阔腿裤套装",
+        "price": 3259
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/v/avz17052md_white_front_1.jpg",
+        "id": "avz17052mdh-whfrl",
+        "title": "印花雪纺吊带连衣裙",
+        "price": 3429
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/s/asn16003m_ivptl_front_1_.jpg",
+        "id": "asn16003mh-iv-pr",
+        "title": "花卉蕾丝拼接长袖连衣裙",
+        "price": 4099
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/_/1/_11-aeg1267m.jpg",
+        "id": "aeg1267mh-paprika",
+        "title": "透视蕾丝摆浪连衣裙",
+        "price": 3259
+      },{
+        "img": "http://img.tadashishoji.cn/media/catalog/product/cache/1/small_image/314x440/9df78eab33525d08d6e5fb8d27136e95/a/v/avs17129mx_white_petal_front.jpg",
+        "id": "avs17129mxh-wh-pl",
+        "title": "白色蕾丝摆浪连衣裙",
+        "price": 3429
+      }
+    ]
   }
 }
