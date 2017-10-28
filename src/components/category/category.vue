@@ -5,6 +5,14 @@
         <div class="classify">条件筛选</div>
         <div v-if="rank" class="rank">{{rank.current.title}}</div>
       </div>
+      <div class="filter-content" v-if="filter">
+            <div class="classify">
+              <div class="title">{{filter.classify.title}}</div>
+              <ul class="content">
+                <li v-for="(item, index) in filter.classify.list" :key="item">{{item}}</li>
+              </ul>
+            </div>
+      </div>
     </div>
   </section>
 </template>
